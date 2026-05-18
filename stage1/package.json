@@ -1,0 +1,23 @@
+{
+  "name": "affordmed-stage1",
+  "version": "1.0.0",
+  "description": "Campus Notifications - Stage 1: Priority Inbox System",
+  "main": "dist/notification-service.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/notification-service.js",
+    "dev": "ts-node notification-service.ts"
+  },
+  "keywords": [
+    "notifications",
+    "priority-inbox",
+    "campus"
+  ],
+  "author": "Affordmed",
+  "license": "CONFIDENTIAL",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
